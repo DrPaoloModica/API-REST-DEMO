@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import paolomodica.applicazione.servizi.ProdottoDemoService;
 import paolomodica.applicazione.entita.ProdottoDemo;
-import paolomodica.applicazione.entita.UtenteDemo;
-import paolomodica.applicazione.entita.common.Genere;
 
 @RestController
 @RequestMapping("/prodotti")

@@ -22,6 +22,7 @@ public class UtenteDemo {
 	
 	//Attributi/Campi/Colonne
 	
+	//Impostiamo la primary key ID con l'annotazione specifica e impostiamo la generazione automatica
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	

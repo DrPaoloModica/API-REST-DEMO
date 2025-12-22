@@ -34,12 +34,13 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "prodotto_demo")
 public class ProdottoDemo {
-	
+
 	
 	
 	
 	//Attributi/Campi/Colonne
 	
+	//Impostiamo la primary key ID con l'annotazione specifica e impostiamo la generazione automatica
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
